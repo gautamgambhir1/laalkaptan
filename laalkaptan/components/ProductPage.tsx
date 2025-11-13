@@ -8,7 +8,7 @@ import { RelatedProducts } from "./RelatedProducts";
 
 export function ProductPage() {
   return (
-    <main className="overflow-x-hidden relative w-screen h-screen bg-white max-md:h-auto max-md:min-h-screen">
+    <main className="overflow-hidden relative flex w-screen h-screen bg-white max-md:h-auto max-md:min-h-screen">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/24634a9e1c857dd82495edcb374b56036885e10f?width=3024"
         alt=""
@@ -22,9 +22,7 @@ export function ProductPage() {
 
       <Header />
       <ProductDetails />
-      <ServiceFeatures />
       <ProductGallery />
-      <ProductInfo />
       <RelatedProducts />
     </main>
   );

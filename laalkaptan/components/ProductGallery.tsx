@@ -1,5 +1,6 @@
 "use client";
 import * as React from "react";
+import { ProductAccordion } from "./ProAccordian";
 
 export function ProductGallery() {
   const [selectedImage, setSelectedImage] = React.useState(0);
@@ -13,7 +14,7 @@ export function ProductGallery() {
   ];
 
   return (
-    <section className="flex absolute flex-col gap-7 items-start h-[396px] left-[1031px] top-[172px] w-[433px] z-3 max-md:static max-md:px-5 max-md:py-0 max-md:mx-auto max-md:mt-0 max-md:mb-10 max-md:w-full max-md:max-w-[500px] max-sm:px-4 max-sm:py-0">
+    <section className="flex absolute flex-col gap-7 items-start h-[396px] left-[1200px] top-[172px] w-[433px] z-3 max-md:static max-md:px-5 max-md:py-0 max-md:mx-auto max-md:mt-0 max-md:mb-10 max-md:w-full max-md:max-w-[500px] max-sm:px-4 max-sm:py-0">
       <div className="flex flex-col gap-4 items-start self-stretch">
         <h3 className="text-base font-semibold tracking-wide text-neutral-700">
           GALLERY
@@ -64,6 +65,8 @@ export function ProductGallery() {
           </div>
         </div>
       </div>
+              <ProductAccordion />
+
     </section>
   );
 }

@@ -23,7 +23,7 @@ export function RelatedProducts() {
   ];
 
   return (
-    <section className="flex absolute flex-col gap-4 items-start h-[197px] left-[1031px] top-[729px] w-[821px] z-[3] max-md:static max-md:px-5 max-md:py-0 max-md:mx-auto max-md:mt-0 max-md:mb-10 max-md:w-full max-md:max-w-[500px] max-sm:px-4 max-sm:py-0">
+    <section className="flex absolute flex-col gap-4 items-start h-[197px] left-[1200px] top-[729px] w-[821px] z-3 max-md:static max-md:px-5 max-md:py-0 max-md:mx-auto max-md:mt-0 max-md:mb-10 max-md:w-full max-md:max-w-[500px] max-sm:px-4 max-sm:py-0">
       <h3 className="text-xl font-extrabold tracking-wide text-black">
         YOU MAY ALSO LIKE
       </h3>

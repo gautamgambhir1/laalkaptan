@@ -2,6 +2,7 @@ import * as React from "react";
 import { SizeSelector } from "./SizeSelector";
 import { QuantitySelector } from "./QuantitySelector";
 import { ColorSelector } from "./ColorSelector";
+import { ServiceFeatures } from "./ServiceFeatures";
 
 export function ProductDetails() {
   return (
@@ -50,6 +51,7 @@ export function ProductDetails() {
           </span>
         </button>
       </div>
+      <ServiceFeatures />
     </section>
   );
 }
